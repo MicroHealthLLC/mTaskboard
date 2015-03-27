@@ -1,0 +1,20 @@
+{
+"name": "mTask Board",
+"minimum_chrome_version": "23",
+"description": "Post-it style task list on a desktop stored locally",
+"manifest_version": 2,
+"version": "1.1",
+"offline_enabled": true,
+  "icons": {
+    "128": "128.png",
+    "16": "16.png"
+  },
+"app": {
+  "launch": {
+  "local_path": "index.html"
+  }
+},
+"permissions": [
+  "unlimitedStorage"
+]
+}
